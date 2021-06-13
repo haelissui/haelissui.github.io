@@ -1,0 +1,298 @@
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 위 3개의 메타 태그는 *반드시* head 태그의 처음에 와야합니다; 어떤 다른 콘텐츠들은 반드시 이 태그들 *다음에* 와야 합니다 -->
+    <title>메뉴정보 목록</title>
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	
+
+    <!-- IE8 에서 HTML5 요소와 미디어 쿼리를 위한 HTML5 shim 와 Respond.js -->
+    <!-- WARNING: Respond.js 는 당신이 file:// 을 통해 페이지를 볼 때는 동작하지 않습니다. -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<!-- jQuery (부트스트랩의 자바스크립트 플러그인을 위해 필요합니다) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- 모든 컴파일된 플러그인을 포함합니다 (아래), 원하지 않는다면 필요한 각각의 파일을 포함하세요 -->
+	<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	 <link rel="stylesheet" href="./css/menu.css" />
+	 <script src="./js/index.js"></script>
+  </head>
+  <body>	
+	<header>
+		<nav class="navbar navbar-inverse navbar-fixed-top hn">
+		   <div class="container-fluid hnvb2">
+
+			 <div class="navbar-header nh">
+				<button class="navbar-toggle" data-toggle="collapse" data-target="#colls">
+
+				  <span class="glyphicon glyphicon-menu-hamburger"></span>
+			   </button>
+			   <a href="index.html" class="sbtit"><img src="./img/Burger_king_2020.svg.png" width=5% height=40px alt="" /></a>
+			 </div>
+
+			 <div class="collapse navbar-collapse gmnav" id="colls">
+			 <div class="wrap">
+				<a href="index.html"><img class="h1" src="./img/Burger_king_2020.svg.png" width=2% height=40px alt="" /></a>
+				<ul class="nav navbar-nav ulnav hdm">
+				  <li class="mainmenu mm1"><a href="menu.html">메뉴소개</a>
+					<ul class="submenu">
+						<li><a href="menu.html">스페셜</a></li>
+						<li><a href="menu.html">프리미엄</a></li>
+						<li><a href="menu.html">와퍼&버거</a></li>
+						<li><a href="menu.html">치킨&치킨버거</a></li>
+						<li><a href="menu.html">사이드</a></li>
+						<li><a href="menu.html">음료&디저트</a></li>
+						<li><a href="menu.html">아침메뉴</a></li>
+					</ul>
+				  </li>
+				  <li class="mainmenu"><a href="index2.html">매장소개</a>
+					<ul class="submenu">
+						<li><a href="index2.html">매장찾기</a></li>
+					</ul>
+				  </li>
+				  <li class="mainmenu"><a href="event.html">이벤트</a>
+					<ul class="submenu">
+						<li><a href="event.html">이벤트</a></li>
+					</ul>
+				  </li>
+				  <li class="mainmenu"><a href="history.html">브랜드스토리</a>
+					<ul class="submenu">
+						<li><a href="history.html">버거킹 스토리</a></li>
+						<li><a href="history2.html">WHY 버거킹</a></li>
+						<li><a href="history3.html">버거킹 NEWS</a></li>
+					</ul>
+				  </li>
+			   </ul>
+				<div class="order">
+					<a href="">딜리버리주문 ></a>
+				</div>
+			 </div>
+		  </div>
+		 </div>
+		</nav>
+	</header>	
+
+	<section class="section1">
+	<h2 class="texthidden">section1</h2>
+		<div class="nvbar">
+			<div><p>home > 메뉴소개</p></div>
+		</div>
+
+		<div class="main ">
+			<div class="menutitlist col-xs-12 container">
+				<h2 class="pull-left">메뉴소개</h2>
+				<ul class="nav nav-tabs pull-right">
+					<li class="active"><a class="nav-link" data-toggle="tab" href="#special">스페셜</a></li>
+					<li class=""><a class="nav-link" data-toggle="tab" href="#premium">프리미엄</a></li>
+					<li class=""><a class="nav-link" data-toggle="tab" href="#whopper">와퍼&버거</a></li>
+					<li class=""><a class="nav-link" data-toggle="tab" href="#chicken">치킨&치킨버거</a></li>
+					<li class=""><a class="nav-link" data-toggle="tab" href="#side">사이드</a></li>
+					<li class=""><a class="nav-link" data-toggle="tab" href="#dessert">음료&디저트</a></li>
+					<li class=""><a class="nav-link" data-toggle="tab" href="#morning">아침메뉴</a></li>
+				</ul>
+			</div>
+
+			<div class="tab-content hmblist">
+			  <div class="tab-pane fade in active hmb_m" id="special">
+				<ul>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_s_1.png" alt="" /><p>붉은대게팩1</p></a></li>
+					<li class="col-sm-3 col-md-3 col-xs-12"><a href=""><img src="./img/ml_s_1.png" alt="" /><p>붉은대게팩2</p></a></li>
+					<li class="col-sm-3 col-md-3 col-xs-12"><a href=""><img src="./img/ml_s_1.png" alt="" /><p>붉은대게팩3</p></a></li>
+					<li class="col-sm-3 col-md-3 col-xs-12"><a href=""><img src="./img/ml_s_1.png" alt="" /><p>붉은대게팩4</p></a></li>
+					<li class="col-sm-3 col-md-3 col-xs-12"><a href=""><img src="./img/ml_s_2.png" alt="" /><p>메가몬스터X</p></a></li>
+				</ul>
+			  </div>
+
+			  <div class="tab-pane fade hmb_m" id="premium">
+				<ul>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_p_1.png" alt="" /><p>붉은대게</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_p_1_2.png" alt="" /><p>붉은대게와퍼</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_p_2.png" alt="" /><p>더콰트로치즈X</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_p_3.png" alt="" /><p>더콰트로치즈</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_p_4.png" alt="" /><p>트러플통모짜와퍼</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_p_5.png" alt="" /><p>통모짜X</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_p_5_2.png" alt="" /><p>통모짜와퍼</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_p_6.png" alt="" /><p>통모짜와퍼주니어</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_p_7.png" alt="" /><p>몬스터X</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_p_8.png" alt="" /><p>몬스터와퍼</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_p_9.png" alt="" /><p>트러플머쉬룸X</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_p_10.png" alt="" /><p>트러플머쉬룸와퍼</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_p_11.png" alt="" /><p>통새우스테이크버거</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_p_12.png" alt="" /><p>통새우와퍼</p></a></li>
+					
+				</ul>
+			  </div>
+
+			  <div class="tab-pane fade hmb_m" id="whopper">
+				<ul>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_w_1.png" alt="" /><p>불고기버거 {행사}</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_w_2.png" alt="" /><p>치즈불고기버거 {행사}</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_w_3.png" alt="" /><p>더블불고기버거 {행사}</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_w_4.png" alt="" /><p>와퍼</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_w_5.png" alt="" /><p>불고기와퍼</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_w_6.png" alt="" /><p>치즈와퍼</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_w_7.png" alt="" /><p>베이컨치즈와퍼</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_w_8.png" alt="" /><p>더블와퍼</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_w_9.png" alt="" /><p>트러플머쉬룸와퍼주니어</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_w_10.png" alt="" /><p>통새우와퍼주니어</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_w_11.png" alt="" /><p>콰트로치즈와퍼주니어</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_w_12.png" alt="" /><p>와퍼주니어</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_w_13.png" alt="" /><p>불고기와퍼주니오</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_w_14.png" alt="" /><p>치즈와퍼주니어</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_w_15.png" alt="" /><p>불고기버거</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_w_16.png" alt="" /><p>치즈버거</p></a></li>
+		
+				</ul>
+			  </div>
+
+			  <div class="tab-pane fade hmb_m" id="chicken">
+				<ul>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_c_1.png" alt="" /><p>바삭킹8조각+소스 {행사}</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_c_2.png" alt="" /><p>바삭킹 4조각 {행사}</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_c_3.png" alt="" /><p>킹치킨버거</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_c_4.png" alt="" /><p>디아블로킹치킨버거</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_c_5.png" alt="" /><p>허니칠리킹치킨버거</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_c_6.png" alt="" /><p>BLT통다리치킨버거</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_c_7.png" alt="" /><p>통다리치킨버거</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_c_8.png" alt="" /><p>바삭킹</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_c_9.png" alt="" /><p>바삭킹8조각+소스</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_c_10.png" alt="" /><p>불고기롱치킨버거</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_c_11.png" alt="" /><p>롱치킨버거</p></a></li>
+				</ul>
+			  </div>
+
+			  <div class="tab-pane fade hmb_m" id="side">
+				<ul>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_sd_1.png" alt="" /><p>쉐이킹프라이</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_sd_2.png" alt="" /><p>사이드소스</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_sd_3.png" alt="" /><p>너겟킹8조각 {행사}</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_sd_4.png" alt="" /><p>너겟킹</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_sd_5.png" alt="" /><p>21치즈스틱</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_sd_6.png" alt="" /><p>21치즈스틱 {행사}</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_sd_7.png" alt="" /><p>프렌치프라이[L] {1+1 행사}</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_sd_8.png" alt="" /><p>크리미모짜볼</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_sd_9.png" alt="" /><p>코코넛쉬림프+스위트칠리소스</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_sd_10.png" alt="" /><p>치즈프라이 [스낵킹]</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_sd_11.png" alt="" /><p>트러플프라이[스낵킹]</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_sd_12.png" alt="" /><p>트러플프라이</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_sd_13.png" alt="" /><p>코울슬로[스낵킹]</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_sd_14.png" alt="" /><p>콘샐러드 [스낵킹]</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_sd_15.png" alt="" /><p>프렌치프라이</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_sd_16.png" alt="" /><p>어니언링</p></a></li>
+		
+				</ul>
+			  </div>
+
+			   <div class="tab-pane fade hmb_m" id="dessert">
+				<ul>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_d_1.png" alt="" /><p>콘 아이스크림</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_d_2.png" alt="" /><p>제로톡톡</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_d_3.png" alt="" /><p>아메리카노 [행사]</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_d_4.png" alt="" /><p>핫/아이스초코[행사]</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_d_5.png" alt="" /><p>아메리카노</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_d_6.png" alt="" /><p>핫/아이스초코</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_d_7.png" alt="" /><p>핫초코</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_d_8.png" alt="" /><p>선데</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_d_9.png" alt="" /><p>컵 아이스크림</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_d_10.png" alt="" /><p>씨그램</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_d_11.png" alt="" /><p>코카콜라</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_d_12.png" alt="" /><p>코카콜라 제로</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_d_13.png" alt="" /><p>스프라이트</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_d_14.png" alt="" /><p>미닛메이드 오렌지</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_d_15.png" alt="" /><p>순수 [미네랄워터]</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_d_16.png" alt="" /><p>제로톡톡 [행사]</p></a></li>
+		
+				</ul>
+			  </div>
+
+			   <div class="tab-pane fade hmb_m" id="morning">
+				<ul>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_m_1.png" alt="" /><p>콘 햄&에그</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_m_2.png" alt="" /><p>베이컨&에그</p></a></li>
+					<li class="col-sm-3 col-xs-12"><a href=""><img src="./img/ml_m_3.png" alt="" /><p>해쉬브라운</p></a></li>
+				</ul>
+			   </div>
+
+		</div>
+		</div>
+	</section>
+	
+	<section class="section7">
+	<h2 class="texthidden">text</h2>
+		<div>
+			<ul>
+				<li><p>메뉴</p>
+					<ul class="s7_sub">
+						<li><a href="menu.html">스페셜</a></li>
+						<li><a href="menu.html">프리미엄</a></li>
+						<li><a href="menu.html">와퍼&버거</a></li>
+						<li><a href="menu.html">치킨&치킨버거</a></li>
+						<li><a href="menu.html">사이드</a></li>
+						<li><a href="menu.html">음료&디저트</a></li>
+						<li><a href="menu.html">아침메뉴</a></li>
+					</ul>
+				</li>
+				<li><p>매장</p>
+					<ul>
+						<li><a href="index2.html">매장찾기</a></li>
+					</ul>
+				</li>
+				<li><p>이벤트</p>
+					<ul>
+						<li><a href="event.html">이벤트</a></li>
+					</ul>
+				</li>
+				<li><p>브랜드 스토리</p>
+					<ul>
+						<li><a href="history.html">버거킹 스토리</a></li>
+						<li><a href="history2.html">WHY 버거킹</a></li>
+						<li><a href="history3.html">버거킹 NEWS</a></li>
+					</ul>
+				</li>
+				<li><p>고객센터</p>
+					<ul>
+						<li><a href="">공지사항</a></li>
+						<li><a href="">버거킹앱이용안내</a></li>
+						<li><a href="">FAQ</a></li>
+						<li><a href="">문의</a></li>
+						<li><a href="">가맹점모집</a></li>
+						<li><a href="">인재채용</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<footer>
+		<div>
+			<ul>
+				<li><img src="./img/MADYGwdAD.gif" alt="" /></li>
+				<li>
+					서울 종로구 삼봉로 71 G 타워 2층 주식회사 비케이알 | TEL 02-6331-8282 FAX 02-3775-4326 <br />
+					사업자 등록번호 101-86-76277 | (주)BKR 대표이사 문영주<br />
+					Copyright 2019 BKR Co., Ltd. All right Reserved
+				</li>
+				<li></li>
+				<li></li>
+			</ul>
+
+			<ul>
+				<li>이용약관</li>
+				<li>개인정보취급방침</li>
+				<li>법적고지</li>
+				<li>인재채용</li>
+				<li>가맹점모집</li>
+			</ul>
+		</div>
+	</footer>
+  <script>
+      $('.carousel').carousel()
+	</script>
+  </body>
+</html>
