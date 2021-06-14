@@ -12,77 +12,153 @@
 	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 	 <link rel="stylesheet" href="./css/style2.css" />
 	
-  </head>
-  <body>	
-	<header>
-		<nav class="navbar navbar-inverse navbar-fixed-top hn">
-		   <div class="container-fluid hnvb2">
+   <style>
+*{
+    margin:0;
+    padding:0;
+    position: relative;
+    /*border:1px solid red;*/
+}
+ .clear{
+    clear:both;
+}
+#logo{
+    margin: 50px;
+}
 
-			 <div class="navbar-header nh">
-				<button class="navbar-toggle" data-toggle="collapse" data-target="#colls">
+.menu{
+    width:100px;
+    margin: 20px 45px 15px 45px;
+    padding: 10px;
+    display: inline-block;
+    color: #222;
+    /*font-weight: bold;*/
+    font-size: 13px;
+    font-family: 휴먼둥근헤드라인;
+}
 
-				  <span class="glyphicon glyphicon-menu-hamburger"></span>
-			   </button>
-			   <a href="index.html" class="sbtit"><img src="./img/Burger_king_2020.svg.png" width=5% height=40px alt="" /></a>
-			 </div>
+.down{
+    position: relative;
+    display: inline-block;
+}
 
-			 <div class="collapse navbar-collapse gmnav" id="colls">
-			 <div class="wrap">
-				<a href="index.html"><img class="h1" src="./img/Burger_king_2020.svg.png" width=2% height=40px alt="" /></a>
-				<ul class="nav navbar-nav ulnav hdm">
-				  <li class="mainmenu mm1"><a href="menu.html">메뉴소개</a>
-					<ul class="submenu">
-						<li><a href="menu.html">스페셜</a></li>
-						<li><a href="menu.html">프리미엄</a></li>
-						<li><a href="menu.html">와퍼&버거</a></li>
-						<li><a href="menu.html">치킨&치킨버거</a></li>
-						<li><a href="menu.html">사이드</a></li>
-						<li><a href="menu.html">음료&디저트</a></li>
-						<li><a href="menu.html">아침메뉴</a></li>
-					</ul>
-				  </li>
-				  <li class="mainmenu"><a href="index2.html">매장소개</a>
-					<ul class="submenu">
-						<li><a href="index2.html">매장찾기</a></li>
-					</ul>
-				  </li>
-				  <li class="mainmenu"><a href="event.html">이벤트</a>
-					<ul class="submenu">
-						<li><a href="event.html">이벤트</a></li>
-					</ul>
-				  </li>
-				  <li class="mainmenu"><a href="history.html">브랜드스토리</a>
-					<ul class="submenu">
-						<li><a href="history.html">버거킹 스토리</a></li>
-						<li><a href="history2.html">WHY 버거킹</a></li>
-						<li><a href="history3.html">버거킹 NEWS</a></li>
-					</ul>
-				  </li>
-			   </ul>
-				<div class="order">
-					<a href="">딜리버리주문 ></a>
-				</div>
-			 </div>
-		  </div>
-		 </div>
-		</nav>
-	</header>		
+.down-content{
+    width:3000px;
+    height:300px;
+    position: absolute;
+    left: -1070px;
+    display: none;
+    background-color: rgba(255,255,255,0.9);
+    z-index: 10;
+}
+
+.down-content a{
+    display: block;
+    color: #888;
+    padding: 15px;
+    text-decoration: none;
+}
+.down-content th{
+    width: 210px;
+}
+.down-content a:hover {
+    color: #ff9900; 
+    text-decoration: underline;
+}
+.down:hover .down-content {
+    display: block;
+}
+
+
+#login{
+    display: inline-block;
+    margin:35px;
+}
+#login li{
+    padding-left:40px;
+    list-style-type: none;
+    display: inline;
+}
+#login a{
+    text-decoration: none;
+    color:black;
+}
+</style>
+</head>
+<body>
+    <center>
+        <header>
+            <a id=logo href='index.html' target=section><img src='./img/Burger_King_2020.svg.png' width=80px height=80px></a>
+
+            <nav class="down">
+                <div class="menu">메뉴소개</div>
+                <div class="menu">매장소개</div>
+                <div class="menu">이벤트</div>
+                <div class="menu">브랜드스토리</div>
+                <div class="down-content">
+                    <table border=0>
+                         <tr>
+                            <th><a href='menu.html'>스페셜&할인팩</a></th>
+                            <th><a href='index2.html' target="section">매장찾기</a></th>
+                            <th><a href='event.html' target=section>이벤트</a></th>
+                            <th><a href='history.html'>버거킹 스토리</a></th>
+                        </tr>
+
+                        <tr>
+                            <th><a href='' target="section">프리미엄</a></th>
+                            <th></th>
+                            <th></th>
+                            <th><a href='' target="section">WHY 버거킹</a></th>
+                        </tr>
+                        <tr>
+                            <th><a href=''>와퍼</a></th>
+                            <th></th>
+                            <th></th>
+                            <th><a href=''>버거킹 NEWS</a></th>
+                            
+                        </tr>
+                        <tr>
+                            <th><a href=''>올데이킹&치킨버거</a></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <th><a href=''>사이드</a></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <th><a href=''>음료&디저트</a></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </table>
+                </div>
+            </nav>
+
+            <ul id=login>
+                <img src="./img/delivery.png">
+            </ul>
+        </header>
 
 	<section class="section1">
 		<div class="nvbar">
-			<div><p>home > 매장찾기</p></div>
-		</div>
-
-		<div>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.3697996433857!2d126.98585221558851!3d37.56990893169221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2e7b38e5f0b%3A0x10884e720d779252!2z67KE6rGw7YK5IOyiheuhnOygkA!5e0!3m2!1sko!2skr!4v1592195622770!5m2!1sko!2skr"frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			<div><p></p></div>
 		</div>
 
 		<div class="border">
 			<ul class="nav nav-pills" >
-				<li class="col-lg-4 active"><a href="">가까운매장</a></li>
-				<li class="col-lg-4"><a href="">매정명검색</a></li>
-				<li class="col-lg-4"><a href="">지역검색</a></li>
+				<li class="col-lg-3 active"><a href="">가까운매장</a></li>
+				<li class="col-lg-3"><a href="">매장명검색</a></li>
+				<li class="col-lg-3"><a href="">지역검색</a></li>
 			</ul>
+
+     <div>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.3697996433857!2d126.98585221558851!3d37.56990893169221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2e7b38e5f0b%3A0x10884e720d779252!2z67KE6rGw7YK5IOyiheuhnOygkA!5e0!3m2!1sko!2skr!4v1592195622770!5m2!1sko!2skr"frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		</div>
 
 			<ul>
 				<li class="dropdown col-lg-13 option ">
@@ -131,28 +207,20 @@
 		</div>
 	</section>
 
-	<footer>
+	<section class="section7">
+	<h2 class="texthidden"></h2>
 		<div>
-			<ul>
-				<li><img src="./img/MADYGwdAD.gif" alt="" /></li>
-				<li>
-					서울 종로구 삼봉로 71 G 타워 2층 주식회사 비케이알 | TEL 02-6331-8282 FAX 02-3775-4326 <br />
-					사업자 등록번호 101-86-76277 | (주)BKR 대표이사 문영주<br />
-					Copyright 2019 BKR Co., Ltd. All right Reserved
-				</li>
-				<li></li>
-				<li></li>
-			</ul>
-
-			<ul>
-				<li>이용약관</li>
-				<li>개인정보취급방침</li>
-				<li>법적고지</li>
-				<li>인재채용</li>
-				<li>가맹점모집</li>
-			</ul>
+			<img src="./img/bg_botmenu.3d4b484b.png"width>
 		</div>
+	</section>
+
+	<footer>
+	<h4 class="texthidden"></h4>
+		<div>
+				<img src="./img/footer.png" alt="" />
+				</div>
 	</footer>
+
   <script>
       $('.carousel').carousel()
 	</script>
